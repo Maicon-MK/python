@@ -1,8 +1,17 @@
-#TRUE
+# TRUE
 equal = 1 == 1
-print (equal)
-#FALSE
+print(equal)
+# FALSE
 equal = 1 == 3
-print (equal)
+print(equal)
 
-print(1/3)
+print(1 / 3)
+
+# GET USER GRADES
+grade_1 = float(input("whats was your grade1?"))
+grade_2 = float(input("whats was your grade2?"))
+
+average = (grade_1 + grade_2) / 2
+print(
+    f" Your gade 1 was: {grade_1}/n your grad 2 was:{grade_2}/n and your averege {average}"
+)

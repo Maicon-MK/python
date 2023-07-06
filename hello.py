@@ -65,3 +65,17 @@ age = 25
 man = True
 #float
 weight = 70.8
+
+
+
+
+#Faça um programa que leia o preço de um produto e retorne
+#o seu preço com 5%de desconto 
+
+#calcule um almento de 15% no salario de um funcionario
+
+#Crie yn conversor de temperatura (°C °F K )
+
+#Faça um programa que leia a quantidade  de dias e KM rodado por
+#alugado, depois calcule o valor de contrato sabendo que 
+#cada dia custa de 60 reais e cada KM custa 15 centavos
