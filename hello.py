@@ -46,5 +46,22 @@ print (f" X and Y  {X**Y}")
 
 
 
+############------------True and False ------------------------##################
+# equal recebe 1 e igual a 1 reposta true 
+#(== igual) (= recebe)
+equal = 1 == 1
+print (equal)
+# A vareavel equal recebe 1 e igual a 3 resposta false
+equal = 1 == 3
+print (equal)
 
+########### FLOAT ############################ Ponto flutuante
 
+#String
+name = "Michael"
+#int
+age = 25
+#booleano
+man = True
+#float
+weight = 70.8
