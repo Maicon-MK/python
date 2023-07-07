@@ -1,7 +1,7 @@
 #Faça um programa que leia o preço de um produto e retorne
 #o seu preço com 5%de desconto 
 
-produto = int(input("quanto custa o produto: "))
+produto = int(input("Quanto custa o produto: "))
 q_desconto = int(input("Desconto de:  "))
 valor_produto = (produto*q_desconto/100)
 

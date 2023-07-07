@@ -5,5 +5,5 @@ almento = (salario_almento-salario)
 
 print (
 f"Seu salario atual e de {salario*1.15}\n"
-f"Com um almento de {almento} "
+f"Com um almento de {almento}"
 )
