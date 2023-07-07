@@ -2,8 +2,8 @@
 #sua area, moste quantos litros de tinta sera necessario para pintar 
 #sabendo que cada litro de tinta pinta 2m quadrados
 
-Altura = int(input("Altura: "))
-Largura = int(input("Largura: "))
+Altura = float(input("Altura: "))
+Largura = float(input("Largura: "))
 Tinta = 2
 
 print(

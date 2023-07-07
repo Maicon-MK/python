@@ -1,6 +1,6 @@
 #Crie um conversor de temperatura (°C °F K )
 
-C = int(input("Quantos C°: "))
+C = float(input("Quantos C°: "))
 para_f =(C*9/5 + 32)
 para_k = (C+273,15)
 
