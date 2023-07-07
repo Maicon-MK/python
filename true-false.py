@@ -13,5 +13,7 @@ grade_2 = float(input("whats was your grade2?"))
 
 average = (grade_1 + grade_2) / 2
 print(
-    f" Your gade 1 was: {grade_1}/n your grad 2 was:{grade_2}/n and your averege {average}"
+     f" Your gade 1 was: {grade_1}/n'"
+     f" your grad 2 was:{grade_2}/n "
+     f"and your averege {average}"
 )
