@@ -1,5 +1,5 @@
 #pergunte quantos reais o usuario possui e infome o valor em dolar 
-valor = float(input(" Quanto em reais gostaria de converter?"))
+valor = float(input(" Quanto em reais gostaria de converter para dolar?"))
 dolar = 4.8
 
 
