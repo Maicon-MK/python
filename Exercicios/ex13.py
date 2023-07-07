@@ -2,7 +2,7 @@
 
 C = float(input("Quantos C°: "))
 para_f =(C*9/5 + 32)
-para_k = (C+273,15)
+para_k = (C+273.15)
 
 print(
     f"Sua temperatura e de: {C} C° (Graus Celcius)\n "
