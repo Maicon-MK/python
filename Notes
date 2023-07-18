@@ -165,3 +165,44 @@ else:
 name = input("YES OR No [Y/N]").strip()
 if name in "Rodrigo":
     print("N")"""
+##------------------------------------------Laços de repetiçoes-------------------------------------##
+#for i in [1,2,3]:
+   # print("move")
+
+        #INTERVALO
+#for i in range(3):
+    #print("mova")
+#começa em 1, termina em 2 e pula de dois em 2
+#for i in range[1 , 101 ,2 ]:
+    #print (i)
+
+"""start  = int (input("Start: "))
+end = int(input("End: "))
+step = int(input("Step: "))
+for i in range(start,end,step):
+    print(i)"""
+
+"""start  = int (input("Start: "))
+end = int(input("End: "))
+step = int(input("Step: "))
+for i in range(start,end,step):
+    if i %10 == 0:
+        print(f"{i} Esse e ")
+    else:
+        print("Esse nao e")"""""
+
+"""alunos =["Michael","Joao Michael","mk"]
+for aluno in alunos:
+    print(aluno)"""
+
+"""alunos  = ["Rodrigo", "Antonio", "Pedro"]
+for aluno in range (len(alunos)):
+    print(alunos+1, alunos[aluno])"""  
+
+"""x = int(input("X: "))
+for c in range(2,x,3):
+    print("move")"""
+    
+
+
+
