@@ -20,7 +20,7 @@ while sexo not in "MF":
     sexo = str(input("Qual eo sexo? [M/F]"))
 print(f"O  seu sexo é {sexo}")"""
 
-"""pares = list()
+pares = list()
 impar = list()
 while True:
     numero = int(input("Digite um valor: "))
@@ -34,7 +34,7 @@ while True:
     
 print(impar)
 print("==============")
-print(pares)"""
+print(pares)
 
 
 
