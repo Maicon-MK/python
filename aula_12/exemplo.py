@@ -63,28 +63,31 @@ def remover_aluno():
 # Criação da janela principal
 janela = tk.Tk()
 janela.title("Gestão de Alunos")
+width = 500
+height = 300
 
+janela.geometry(f'{width}x{height}')
 
 # Rótulos e campos de entrada
 label_nome = tk.Label(janela, text="Nome do Aluno:")
-label_nome.pack()
+label_nome.pack(padx=10,pady=10)
 entry_nome = tk.Entry(janela)
-entry_nome.pack()
+entry_nome.pack(padx=10,pady=10)
 
 label_cidade = tk.Label(janela, text="Cidade do Aluno:")
-label_cidade.pack()
+label_cidade.pack(padx=10,pady=10)
 entry_cidade = tk.Entry(janela)
-entry_cidade.pack()
+entry_cidade.pack(padx=10,pady=10)
 
 # Botões
 btn_adicionar = tk.Button(janela, text="Adicionar Aluno", command=adicionar_aluno)
-btn_adicionar.pack()
+btn_adicionar.pack(padx=10,pady=10)
 
 btn_selecionar_aleatorio = tk.Button(janela, text="Selecionar Aleatório", command=selecionar_aleatorio)
-btn_selecionar_aleatorio.pack()
+btn_selecionar_aleatorio.pack(padx=10,pady=10)
 
 btn_remover = tk.Button(janela, text="Remover Aluno", command=remover_aluno)
-btn_remover.pack()
+btn_remover.pack(padx=10,pady=10)
 
 # Iniciar a interface gráfica
 janela.mainloop()
